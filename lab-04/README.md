@@ -708,60 +708,61 @@ For registration and login:
 
 # 13. Screenshots
 
-Screenshots should be added to the `screenshots/` folder to show the working process and test results.
+The following screenshots demonstrate the successful execution and testing of the Registration, Login and JWT Authentication APIs.
 
-## Screenshot Gallery
+## 13.1 Registration Success
 
-| Screenshot | Description |
-|---|---|
-| register-success.png | Successful user registration |
-| register-duplicate.png | Duplicate username validation |
-| register-invalid.png | Registration with missing or invalid fields |
-| login-success.png | Successful login response |
-| login-wrong-password.png | Login with an incorrect password |
-| login-invalid-user.png | Login using an unregistered username |
-| login-missing-fields.png | Login with missing fields |
-| database-users.png | User records stored in SQLite |
-| jwt-decoded.png | Decoded JWT header and payload |
+This screenshot shows successful registration of a new user.
 
-**Note:** Add your actual screenshots to the folder and make sure the filenames match the links below.
+![Registration Success](screenshots/register-success.png.png)
 
-### Project Structure Screenshot
+## 13.2 Duplicate Registration
 
-![Project Structure](screenshots/project-structure.png)
-![alt text](image.png)
+This screenshot shows the error response when an existing username is registered again.
 
-### Registration Success
+![Duplicate Registration](screenshots/register-duplicate.png.png)
 
+## 13.3 Invalid Registration
 
-![Registration Success](screenshots/register-success.png)
-![alt text](register-success.png.png)
-### Duplicate Registration
+This screenshot shows the validation response when required registration details are missing or invalid.
 
-![Duplicate Registration](screenshots/register-duplicate.png)
-![alt text](register-duplicate.png.png)
+![Invalid Registration](screenshots/register-invalid.png.png)
 
-### Login Success
+## 13.4 Login Success
 
-![Login Success](screenshots/login-success.png)
-![alt text](login-success.png.png)
+This screenshot shows successful login and JWT token generation.
 
-### Incorrect Password
+![Login Success](screenshots/login-success.png.png)
 
-![Incorrect Password](screenshots/login-wrong-password.png)
-![alt text](login-wrong-password.png.png)
-### Database Records
+## 13.5 Login With Incorrect Password
 
-![Database Users](screenshots/database-users.png)
-![alt text](database-users.png.png)
+This screenshot shows the response when an incorrect password is entered.
 
-### JWT Token
+![Incorrect Password](screenshots/login-wrong-password.png.png)
 
-![JWT Decoded](screenshots/jwt-decoded.png)
-![alt text](jwt-decoded.png.png)
+## 13.6 Login With Invalid Username
 
----
+This screenshot shows the response when an unregistered username is entered.
 
+![Invalid Username](screenshots/login-invalid-user.png.png)
+
+## 13.7 Login With Missing Fields
+
+This screenshot shows the validation response when login details are missing.
+
+![Missing Fields](screenshots/login-missing-fields.png.png)
+
+## 13.8 Database Records
+
+This screenshot displays the registered user records stored in the SQLite database.
+
+![Database Records](screenshots/database-users.png.png)
+
+## 13.9 JWT Token Decoding
+
+This screenshot demonstrates the decoded JWT token information.
+
+![JWT Decoded](screenshots/jwt-decoded.png.png)
 # 14. Security Considerations
 
 The project demonstrates basic security practices for user authentication.
