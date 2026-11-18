@@ -735,26 +735,30 @@ Screenshots should be added to the `screenshots/` folder to show the working pro
 
 
 ![Registration Success](screenshots/register-success.png)
-
+![alt text](register-success.png.png)
 ### Duplicate Registration
 
 ![Duplicate Registration](screenshots/register-duplicate.png)
+![alt text](register-duplicate.png.png)
 
 ### Login Success
 
 ![Login Success](screenshots/login-success.png)
+![alt text](login-success.png.png)
 
 ### Incorrect Password
 
 ![Incorrect Password](screenshots/login-wrong-password.png)
-
+![alt text](login-wrong-password.png.png)
 ### Database Records
 
 ![Database Users](screenshots/database-users.png)
+![alt text](database-users.png.png)
 
 ### JWT Token
 
 ![JWT Decoded](screenshots/jwt-decoded.png)
+![alt text](jwt-decoded.png.png)
 
 ---
 
